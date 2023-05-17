@@ -11,7 +11,7 @@ import SwiftUI
 struct AlarmPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyTabView()
         }
     }
 }
