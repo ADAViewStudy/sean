@@ -19,7 +19,6 @@
 		4244733D2A12869800F4CF7A /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4244733C2A12869800F4CF7A /* AlarmData.swift */; };
 		4244733F2A128A2100F4CF7A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4244733E2A128A2100F4CF7A /* AlarmView.swift */; };
 		426AEA292A091BD90045D3DE /* AlarmPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AEA282A091BD90045D3DE /* AlarmPracticeApp.swift */; };
-		426AEA2B2A091BD90045D3DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AEA2A2A091BD90045D3DE /* ContentView.swift */; };
 		426AEA2D2A091BDA0045D3DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426AEA2C2A091BDA0045D3DE /* Assets.xcassets */; };
 		426AEA302A091BDA0045D3DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426AEA2F2A091BDA0045D3DE /* Preview Assets.xcassets */; };
 		426AEA372A0935BD0045D3DE /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426AEA362A0935BD0045D3DE /* MyNavigationView.swift */; };
@@ -42,7 +41,6 @@
 		4244733E2A128A2100F4CF7A /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		426AEA252A091BD90045D3DE /* AlarmPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426AEA282A091BD90045D3DE /* AlarmPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmPracticeApp.swift; sourceTree = "<group>"; };
-		426AEA2A2A091BD90045D3DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		426AEA2C2A091BDA0045D3DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426AEA2F2A091BDA0045D3DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		426AEA362A0935BD0045D3DE /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				426AEA282A091BD90045D3DE /* AlarmPracticeApp.swift */,
-				426AEA2A2A091BD90045D3DE /* ContentView.swift */,
 				426AEA362A0935BD0045D3DE /* MyNavigationView.swift */,
 				424473252A10D18700F4CF7A /* Alarm.swift */,
 				4244733C2A12869800F4CF7A /* AlarmData.swift */,
@@ -211,7 +208,6 @@
 				4244732E2A12750C00F4CF7A /* AlarmAddRepeatCellView.swift in Sources */,
 				424473282A126E1100F4CF7A /* RepeatDay.swift in Sources */,
 				424473372A127B5700F4CF7A /* AlarmAddSnoozeCellView.swift in Sources */,
-				426AEA2B2A091BD90045D3DE /* ContentView.swift in Sources */,
 				426AEA292A091BD90045D3DE /* AlarmPracticeApp.swift in Sources */,
 				4244733F2A128A2100F4CF7A /* AlarmView.swift in Sources */,
 				424473392A127BF400F4CF7A /* AlarmAddSoundCellView.swift in Sources */,
@@ -351,8 +347,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AlarmPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = W43DLLFB4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Clock;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -363,7 +361,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.greed.AlarmPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.swiftui.clockapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -379,8 +377,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AlarmPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = W43DLLFB4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Clock;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -391,7 +391,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.greed.AlarmPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sean.swiftui.clockapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

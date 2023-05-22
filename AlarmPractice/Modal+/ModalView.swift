@@ -69,8 +69,8 @@ struct ModalView: View {
 }
 
 
-//struct ModalView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ModalView()
-//    }
-//}
+struct ModalView_Previews: PreviewProvider {
+    static var previews: some View {
+        ModalView(alarmData: AlarmData(alarms: []))
+    }
+}

@@ -115,8 +115,8 @@ struct listTextView: View {
     }
 }
 
-//struct MyNavigationView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MyNavigationView()
-//    }
-//}
+struct MyNavigationView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyNavigationView(alarmData: AlarmData(alarms: []))
+    }
+}
