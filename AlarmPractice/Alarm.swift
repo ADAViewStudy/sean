@@ -33,7 +33,6 @@ struct Alarm: Hashable, Codable, Identifiable {
         get {
             [
                 Alarm(id: UUID(), date: Date().addingTimeInterval(-1000), label: "Alarm", repeatDay: [.sunday], isActive: true, isSnooze: true)
-            
             ]
         }
     }

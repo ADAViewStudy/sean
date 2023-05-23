@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11F1C6192A1B9B4300C2EBF8 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1C6182A1B9B4300C2EBF8 /* Color+.swift */; };
+		11F1C61C2A1C87F100C2EBF8 /* ChangeWakeUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F1C61B2A1C87F100C2EBF8 /* ChangeWakeUp.swift */; };
 		424473262A10D18700F4CF7A /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424473252A10D18700F4CF7A /* Alarm.swift */; };
 		424473282A126E1100F4CF7A /* RepeatDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424473272A126E1100F4CF7A /* RepeatDay.swift */; };
 		4244732B2A12747B00F4CF7A /* AlarmRepeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4244732A2A12747B00F4CF7A /* AlarmRepeatView.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11F1C6182A1B9B4300C2EBF8 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		11F1C61B2A1C87F100C2EBF8 /* ChangeWakeUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWakeUp.swift; sourceTree = "<group>"; };
 		424473252A10D18700F4CF7A /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		424473272A126E1100F4CF7A /* RepeatDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatDay.swift; sourceTree = "<group>"; };
 		4244732A2A12747B00F4CF7A /* AlarmRepeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRepeatView.swift; sourceTree = "<group>"; };
@@ -60,9 +64,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11F1C6172A1B9B1B00C2EBF8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				11F1C6182A1B9B4300C2EBF8 /* Color+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		424473292A12745900F4CF7A /* Modal+ */ = {
 			isa = PBXGroup;
 			children = (
+				11F1C61B2A1C87F100C2EBF8 /* ChangeWakeUp.swift */,
 				426AEA612A0CD84D0045D3DE /* ModalView.swift */,
 			);
 			path = "Modal+";
@@ -109,17 +122,18 @@
 		426AEA272A091BD90045D3DE /* AlarmPractice */ = {
 			isa = PBXGroup;
 			children = (
+				426AEA2C2A091BDA0045D3DE /* Assets.xcassets */,
 				426AEA282A091BD90045D3DE /* AlarmPracticeApp.swift */,
-				426AEA362A0935BD0045D3DE /* MyNavigationView.swift */,
-				424473252A10D18700F4CF7A /* Alarm.swift */,
-				4244733C2A12869800F4CF7A /* AlarmData.swift */,
-				424473272A126E1100F4CF7A /* RepeatDay.swift */,
 				426AEA402A0A6CFD0045D3DE /* MyTabView.swift */,
+				426AEA362A0935BD0045D3DE /* MyNavigationView.swift */,
+				4244733C2A12869800F4CF7A /* AlarmData.swift */,
+				424473252A10D18700F4CF7A /* Alarm.swift */,
+				424473272A126E1100F4CF7A /* RepeatDay.swift */,
 				426AEA422A0A75420045D3DE /* MyView.swift */,
 				424473312A12780100F4CF7A /* Views */,
 				4244732C2A1274F400F4CF7A /* Components */,
 				424473292A12745900F4CF7A /* Modal+ */,
-				426AEA2C2A091BDA0045D3DE /* Assets.xcassets */,
+				11F1C6172A1B9B1B00C2EBF8 /* Extension */,
 				426AEA2E2A091BDA0045D3DE /* Preview Content */,
 			);
 			path = AlarmPractice;
@@ -206,12 +220,14 @@
 				426AEA622A0CD84D0045D3DE /* ModalView.swift in Sources */,
 				4244733D2A12869800F4CF7A /* AlarmData.swift in Sources */,
 				4244732E2A12750C00F4CF7A /* AlarmAddRepeatCellView.swift in Sources */,
+				11F1C6192A1B9B4300C2EBF8 /* Color+.swift in Sources */,
 				424473282A126E1100F4CF7A /* RepeatDay.swift in Sources */,
 				424473372A127B5700F4CF7A /* AlarmAddSnoozeCellView.swift in Sources */,
 				426AEA292A091BD90045D3DE /* AlarmPracticeApp.swift in Sources */,
 				4244733F2A128A2100F4CF7A /* AlarmView.swift in Sources */,
 				424473392A127BF400F4CF7A /* AlarmAddSoundCellView.swift in Sources */,
 				4244733B2A127C3000F4CF7A /* AlarmSoundView.swift in Sources */,
+				11F1C61C2A1C87F100C2EBF8 /* ChangeWakeUp.swift in Sources */,
 				424473302A12770200F4CF7A /* AlarmRepeatCellView.swift in Sources */,
 				426AEA432A0A75420045D3DE /* MyView.swift in Sources */,
 				424473332A12783400F4CF7A /* AlarmAddLabelCellView.swift in Sources */,

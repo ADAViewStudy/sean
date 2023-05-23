@@ -55,3 +55,9 @@ struct AlarmView : View {
   }
 }
 
+//struct AlarmView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AlarmView(alarmData: AlarmData(alarms: <#T##[Alarm]#>), alarm: <#T##Alarm#>)
+//            .tint(.orange)
+//    }
+//}

@@ -29,7 +29,6 @@ struct ModalView: View {
                     ToolbarItem(placement: .primaryAction) {
                         Button("저장") {
                             self.createAlarm()
-                            
                         }
                     }
                     ToolbarItem(placement: .cancellationAction) {
@@ -45,10 +44,8 @@ struct ModalView: View {
                     AlarmAddSnoozeCellView(isSnoozed: $isSnoozed)
                 }
                 .listStyle(.grouped)
-                
             }
         }
-        
     }//body
     
     private func createAlarm() {
@@ -72,5 +69,6 @@ struct ModalView: View {
 struct ModalView_Previews: PreviewProvider {
     static var previews: some View {
         ModalView(alarmData: AlarmData(alarms: []))
+            .tint(.orange)
     }
 }

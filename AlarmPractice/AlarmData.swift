@@ -14,6 +14,7 @@ final class AlarmData: ObservableObject {
     init(alarms: [Alarm]) {
         self.alarms = alarms
     }
+    
     func removeAlarm(at offsets: IndexSet) {
         alarms.remove(atOffsets: offsets)
     }

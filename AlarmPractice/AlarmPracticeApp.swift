@@ -12,6 +12,8 @@ struct AlarmPracticeApp: App {
     var body: some Scene {
         WindowGroup {
             MyTabView()
+                .tint(.orange)
         }
     }
 }
+

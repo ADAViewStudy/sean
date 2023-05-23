@@ -27,6 +27,7 @@ struct MyTabView: View {
                         Text("알람")
                     }
                     .tag(1)
+                    .tint(.orange)
                 MyView(title: "스톱워치")
                     .tabItem{
                         Image(systemName: "stopwatch.fill")
