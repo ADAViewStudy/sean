@@ -11,9 +11,6 @@ struct MyTabView: View {
     var body: some View {
         
         ZStack {
-//            Color.black
-//                .edgesIgnoringSafeArea(.all)
-            
             TabView {
                 MyView(title: "세계 시계")
                     .tabItem{
