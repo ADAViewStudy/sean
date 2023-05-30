@@ -13,10 +13,12 @@ final class AlarmData: ObservableObject {
     @Published var alarms: [Alarm]
     init(alarms: [Alarm]) {
         self.alarms = alarms
+//        print("alarmdata init")
     }
     
     func removeAlarm(at offsets: IndexSet) {
-        alarms.remove(atOffsets: offsets)
+//        print("DEBUG == ")
+        self.alarms.remove(atOffsets: offsets)
     }
 }
 

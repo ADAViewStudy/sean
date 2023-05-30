@@ -29,13 +29,8 @@ struct Alarm: Hashable, Codable, Identifiable {
         self.isSnooze = isSnooze
     }
     
-    static var defaultAlarm: [Alarm] {
-        get {
-            [
-                Alarm(id: UUID(), date: Date().addingTimeInterval(-1000), label: "Alarm", repeatDay: [.sunday], isActive: true, isSnooze: true)
-            ]
-        }
-    }
 }
 
-
+extension Alarm {
+    static var arr: [Alarm] = []
+}
