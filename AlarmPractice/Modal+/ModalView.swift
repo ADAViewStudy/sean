@@ -29,6 +29,7 @@ struct ModalView: View {
                     ToolbarItem(placement: .primaryAction) {
                         Button("저장") {
                             self.createAlarm()
+                            print("추가")
                         }
                     }
                     ToolbarItem(placement: .cancellationAction) {
@@ -49,6 +50,7 @@ struct ModalView: View {
     }//body
     
     private func createAlarm() {
+        print("\(self.alarmData.$alarms)")
         let newAlarm = Alarm(
             id: UUID(),
             date: date,
@@ -61,6 +63,10 @@ struct ModalView: View {
         self.alarmData.alarms.append(newAlarm)
         //정렬
         self.alarmData.alarms = self.alarmData.alarms.sorted(by: {$0.date < $1.date})
+        
+        for i in self.alarmData.alarms {
+            print(i)
+        }
         dismiss()
     }
 }
