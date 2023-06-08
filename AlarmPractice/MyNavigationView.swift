@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct MyNavigationView: View {
-    @ObservedObject var alarmData: AlarmData
     
+    @ObservedObject var alarmData: AlarmData
     @State private var showModal = false
     
     var body: some View {
@@ -101,7 +101,7 @@ struct listTextView: View {
                     .bold()
                     .padding(EdgeInsets(top: 6, leading: 10, bottom: 6, trailing: 10))
             }//: Button
-            .background(RoundedRectangle(cornerRadius: 15).fill(Color.alarmGray))
+            .background(RoundedRectangle(cornerRadius: 15).fill(Color(UIColor.systemGray5)))
             .sheet(isPresented: self.$showModal) {
                 ChangeWakeUp()
             }//: sheet
